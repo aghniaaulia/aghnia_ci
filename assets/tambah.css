@@ -1,0 +1,31 @@
+h1{
+  color: rgb(98, 130, 235);
+}
+
+.tambah select{
+  width: 35%;
+  color: white;
+  padding: 6px 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(138, 160, 232);
+  cursor: pointer;
+}
+.tambah input[type=text]{
+  width: 35%;
+  color: white;
+  padding: 6px 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(138, 160, 232);
+  cursor: pointer;
+}
+
+.tambah input[type=submit]{
+  color: white;
+  padding: 6px 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(135, 162, 251);
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.menu{
+  background-color: cornflowerblue;
+  height: 40px;
+  padding: 15px;
+}
+.menu a{
+  background-color: rgb(16, 90, 163);
+  text-decoration: none;
+  padding: 8px;
+  color: rgb(249, 249, 249);
+}
