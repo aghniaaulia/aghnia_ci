@@ -9,12 +9,16 @@
 <body>
 
   <h1>Halaman Login</h1><br>
+  <?= $this->session->flashdata('message'); ?>
+  
   <form action="<?= base_url() ?>login/verivikasi" method="post">
     <input type="text" placeholder="masukkan username" name="username"><br><br>
-    <input type="passwoard" placeholder="masukkan passwoard" name="passwoard"><br><br>
+    <input type="password" placeholder="masukkan password" name="password"><br><br>
     
     <input type="submit" value="lOGIN">
   </form>
+
+  <p>Belum Punya Akun ? <a href="<?= base_url() ?>daftar">daftar</a></p>
 
 </body>
 </html>
