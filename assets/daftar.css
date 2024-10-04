@@ -1,0 +1,41 @@
+*{
+  font-family: sans-serif;
+}
+
+.tambah select{
+  width: 35%;
+  color: white;
+  padding: 6px 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(115, 146, 247);
+  cursor: pointer;
+}
+.tambah input[type=text]{
+  width: 35%;
+  color: white;
+  padding: 6px 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(115, 142, 231);
+  cursor: pointer;
+}
+
+.tambah input[type=submit]{
+  color: white;
+  padding: 6px 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(92, 126, 239);
+  cursor: pointer;
+}
+
+.tambah input[type=password]{
+  width: 35%;
+  color: white;
+  padding: 6px 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(115, 144, 237);
+  cursor: pointer;
+}
