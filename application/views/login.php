@@ -9,6 +9,7 @@
 <body>
 
   <h1>Halaman Login</h1><br>
+  <div class="tambah">
   <?= $this->session->flashdata('message'); ?>
   
   <form action="<?= base_url() ?>login/verivikasi" method="post">
@@ -19,6 +20,6 @@
   </form>
 
   <p>Belum Punya Akun ? <a href="<?= base_url() ?>daftar">daftar</a></p>
-
+</div>
 </body>
 </html>
