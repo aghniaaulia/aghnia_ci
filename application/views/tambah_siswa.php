@@ -10,12 +10,12 @@
 <body>
   <h1>Tambah Data Siswa</h1>
   <div class="tambah">
-  <form action="tambah_siswa/tambah" method="post">
+  <form action="<?= base_url() ?>tambah_siswa/tambah" method="post">
     <input placeholder="masukkan nama" type="text" name="nama"><br><br>
     <select name="alamat">
       <option value="">--pilih alamat--</option>
         <?php foreach ($alamat as $al) : ?>
-          <option value="<? = $al['id'] ?>"> <?= $al['alamat'] ?> </option>
+          <option value="<?= $al['id'] ?>"> <?= $al['alamat'] ?></option>
         <?php endforeach; ?>
     </select><br><br>
     <input placeholder="masukkan no tlp" type="text" name="no_tlp"><br><br>
