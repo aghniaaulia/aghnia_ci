@@ -14,12 +14,8 @@
     <input placeholder="masukkan nama" type="text" name="nama" value="<?= $edit ['nama']?>"><br><br>
     <select name="alamat">
         <option value="">--pilih alamat--</option>
-        <?php foreach($alamat as $al) : ?>
-          <?php if($al == $edit['id_alamat']) : ?>
-            <option value="<?=$al; ?>" selected><?=$al; ?></option>
-        <?php else : ?>
-          <option value="<?=$al; ?>"> <?=$al; ?> </option>
-        <?php endif; ?>
+        <?php foreach($alamat as $al) :?>
+          <option value="<?= $al['id']?>"><?= $al['alamat'] ?></option>
         <?php endforeach; ?>
     </select><br><br>
     <input placeholder="masukkan no tlp" type="text" name="no_tlp" value="<?= $edit ['no_tlp']?>"><br><br>

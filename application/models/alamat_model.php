@@ -18,4 +18,9 @@ class alamat_model extends CI_Model {
 		];
 		$this->db->insert('alamat',$data);
 	}
+
+	public function getAlamatByid($id)
+	{
+		return $this->db->get_where('alamat',['id' => $id])->row_array();
+	}
 }
